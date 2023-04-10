@@ -4,7 +4,7 @@
       return (
         <div>
           <h1>Hello World!</h1>
-          {/* <p>こんにちは</p> */}
+          <p>こんにちは</p>
         </div>
       );
     };
