@@ -1,12 +1,12 @@
     import React from 'react';
 
-    const Hello = () => {
+    const Show = () => {
       return (
         <div>
           <h1>Hello World!</h1>
-          {/* <p>こんにちは</p> */}
+          <p>showページ</p>
         </div>
       );
     };
 
-    export default Hello;
+    export default Show;
