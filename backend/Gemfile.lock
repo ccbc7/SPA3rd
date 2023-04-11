@@ -97,6 +97,10 @@ GEM
       irb (>= 1.5.0)
       reline (>= 0.3.1)
     diff-lcs (1.5.0)
+    dotenv (2.8.1)
+    dotenv-rails (2.8.1)
+      dotenv (= 2.8.1)
+      railties (>= 3.2)
     erubi (1.12.0)
     factory_bot (6.2.1)
       activesupport (>= 5.0.0)
@@ -224,18 +228,9 @@ GEM
       rainbow (>= 2.2.2, < 4.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 1.7)
-    rubocop-airbnb (3.0.2)
-      rubocop (~> 0.76.0)
-      rubocop-performance (~> 1.5.0)
-      rubocop-rails (~> 2.3.2)
-      rubocop-rspec (~> 1.30.0)
-    rubocop-performance (1.5.2)
-      rubocop (>= 0.71.0)
     rubocop-rails (2.3.2)
       rack (>= 1.1)
       rubocop (>= 0.72.0)
-    rubocop-rspec (1.30.1)
-      rubocop (>= 0.60.0)
     ruby-graphviz (1.2.5)
       rexml
     ruby-progressbar (1.13.0)
@@ -263,6 +258,7 @@ DEPENDENCIES
   bullet
   capybara
   debug
+  dotenv-rails
   factory_bot_rails
   pg (~> 1.1)
   pry-byebug
@@ -274,7 +270,6 @@ DEPENDENCIES
   rails-erd
   rspec-rails
   rubocop
-  rubocop-airbnb
   rubocop-rails (= 2.3.2)
   tzinfo-data
 
